@@ -1,12 +1,16 @@
-body{background-color: white;  /* https://www.w3schools.com/colors/colors_names.asp */
+body{background-color: black;  /* https://www.w3schools.com/colors/colors_names.asp */
 	font-family: ;}
 
-section{
-	width: 70%;
-	padding: 0.5% 1%;
+header{color: #f0ede9;
+	padding: 2%;}
+
+section{background: #f0ede9;
+	padding:  5%;
+}
+
+width: 50%;
+	padding: 5% 25%;
 	margin: 0px;
-	background: lavender;
+	background: #f0ede9;
 	margin: 0 auto; /* centrar elementos dentro de este div */
 	float: center;  /* otras opciones son left, right */
-	border-radius: 25px;
-}
