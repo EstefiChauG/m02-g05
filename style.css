@@ -32,7 +32,7 @@ header{
 .navegacion{
 	width: 1000px;
 	margin: 30px auto;
-	background: #fff;
+	background: #blueviolet;
 }
 
 .navegacion ul{
@@ -55,7 +55,6 @@ header{
 
 .menu li a:hover{
 	color: #black;
-	transition: all .3s;
 }
 
 /* Submenu*/
@@ -65,7 +64,7 @@ header{
 	background: #blueviolet;
 	width: 120%;
 	visibility: hidden;
-	opacity: 100;
+
 }
 
 .submenu li a{
