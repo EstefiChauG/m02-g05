@@ -73,6 +73,7 @@ header{
 	color: #black;
 	font-family: 'Amarante', cursive;
 	text-decoration: none;
+	background-color: black;
 }
 
 .menu li:hover .submenu{
