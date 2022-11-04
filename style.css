@@ -16,7 +16,7 @@ width: 50%;
 	float: center;  /* otras opciones son left, right */
 
 }
-.menu {
+.menu { <!-- de aqui en adelante es la cuestion del menu-->
   display: inline-block;
   position: relative;
 }
