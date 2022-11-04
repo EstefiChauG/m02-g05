@@ -1,10 +1,12 @@
 body{background-color: #0D1821;  /* https://www.w3schools.com/colors/colors_names.asp */
 	font-family: ;}
 
-header{color: #f0ede9;
-	padding: 2%;}
+header{background-color: #0D1821;
+	color: #F2EBF0;
+	padding: 0.5%;
+	position: fixed;}
 
-section{background: #f0ede9;
+section{background-color: red;
 	padding:  5%;
 }
 
