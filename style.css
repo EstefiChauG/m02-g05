@@ -13,10 +13,10 @@ header{background-color: #0D1821;
 	color: #F2EBF0;
 	padding: 0.5%;
 	position: fixed;
-	margin-left: 5%;}
+	padding-left: 6%;
+	font-size: 110%;}
 
-*{
-	margin: 0;
+*{margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -30,32 +30,18 @@ header{width: 100%;}
 .menu > li{
 	position: relative;
 	display: inline-block;
-	padding-right: 9%;
+	padding-right: 8%;
 	font-family: 'Amarante', cursive;}
 
 .menu > li > a{
 	display: block;
-	padding: 15px 20px;
+	padding: 12px 20px;
 	color: white;
 	font-family: 'Amarante', cursive;
 	text-decoration: none;}
 
 .menu li a:hover{
 	color: #242EEF;}
-
-/* Submenu*/
-
-.submenu{
-	position: absolute;
-	background: #blueviolet;
-	width: 50%;
-	visibility: hidden;
-	background-color: #0D1821;
-	padding: 15px;
-	padding-bottom: 0px;}
-
-.menu li:hover .submenu{
-	visibility: visible;}  /* desde * es un código sacado de https://www.youtube.com/watch?v=3mdQuS8VHKg */
 
 #autores-paper{width: 60%;
 	float: left;
@@ -88,5 +74,51 @@ header{width: 100%;}
 #gif{margin-top: 10%;
 	padding: 9.5%;
 }
+
+#tipa{padding: 10px;
+	padding-right: 0%;
+	padding-top: 0;
+	border: 0;
+	float: right;
+	float: top;
+	margin-top: -5%;}
+
+#cont2{width: 45%;
+	float: left;
+	padding-top: 0;
+	border: 0;
+	float: top;
+	padding-left: 5%;}
+
+#cont3{
+	margin: 10px;
+	margin-top: 3%;
+	border: 0px;
+	float: right;
+	float: top;
+	width: 30%;}
+
+#cont4{padding: 5%;
+padding-top: 3%;
+padding-right: 35%;}
+
+#esq{margin-top: 3%;
+	padding-top: 0;
+	border: 0px;
+	float: right;
+	float: top;
+	width: 45%;}
+
+#vin{margin-left: -10%;
+margin-bottom: -7%;
+margin-top: -5%;}
+
+#cont5{width: 50%;
+	float: left;
+	padding: 10px;
+	padding-top: 0;
+	border: 30px;
+	float: top;
+	padding-left: 5%;}
 
 
