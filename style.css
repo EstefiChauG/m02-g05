@@ -1,5 +1,4 @@
-body{background-color: #0D1821;  /* https://www.w3schools.com/colors/colors_names.asp */
-	font-family: ;}
+body{background-color: #0D1821;  /* https://www.w3schools.com/colors/colors_names.asp */}
 
 p{font-family: 'Asul', sans-serif;
 	color: #F2EBF0;
@@ -19,8 +18,8 @@ header{background-color: #0D1821;
 	color: #F2EBF0;
 	padding: 0.5%;
 	position: fixed;
-	padding-left: 4%;
-	font-size: 120%;}
+	padding-left: 3%;
+	font-size: 130%;}
 
 *{margin: 0;
 	padding: 0;
@@ -41,13 +40,13 @@ header{width: 100%;}
 
 .menu > li > a{
 	display: block;
-	padding: 12px 20px;
+	padding: 15px 20px;
 	color: white;
 	font-family: 'Amarante', cursive;
 	text-decoration: none;}
 
 .menu li a:hover{
-	color: #242EEF;}
+	color: #242EEF;} /* desde el "*" hasta acá es un código sacado en https://www.youtube.com/watch?v=3mdQuS8VHKg*/
 
 #autores-paper{width: 60%;
 	float: left;
