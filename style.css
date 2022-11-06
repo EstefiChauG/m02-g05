@@ -10,12 +10,17 @@ h2{font-family: 'Asul', sans-serif;
 	font-size: 180%;
 	font-weight: 100%;}
 
+h3{font-family: 'Asul', sans-serif;
+	color: #F2EBF0;
+	font-size: 140%;
+	font-weight: 100%;}
+
 header{background-color: #0D1821;
 	color: #F2EBF0;
 	padding: 0.5%;
 	position: fixed;
-	padding-left: 6%;
-	font-size: 110%;}
+	padding-left: 4%;
+	font-size: 120%;}
 
 *{margin: 0;
 	padding: 0;
@@ -31,7 +36,7 @@ header{width: 100%;}
 .menu > li{
 	position: relative;
 	display: inline-block;
-	padding-right: 8%;
+	padding-right: 5%;
 	font-family: 'Amarante', cursive;}
 
 .menu > li > a{
@@ -126,4 +131,12 @@ margin-top: -5%;}
 padding-right: 7%;
 margin-bottom: -4%;}
 
+footer{background-image: url("img/fin.png");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center center;
+	padding-bottom: 5%;
+	padding-top: 1%;}
 
+#referencias a h3:hover{
+	color: #242EEF;}
