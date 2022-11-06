@@ -3,7 +3,8 @@ body{background-color: #0D1821;  /* https://www.w3schools.com/colors/colors_name
 
 p{font-family: 'Asul', sans-serif;
 	color: #F2EBF0;
-	font-size: 130%;}
+	font-size: 140%;}
+
 h2{font-family: 'Asul', sans-serif;
 	color: #F2EBF0;
 	font-size: 180%;
@@ -76,15 +77,15 @@ header{width: 100%;}
 }
 
 #tipa{padding: 10px;
-	padding-right: 0%;
+	padding-right: 0;
 	padding-top: 0;
-	border: 0;
+	border-right: 0;
 	float: right;
 	float: top;
 	margin-top: -5%;}
 
 #cont2{width: 45%;
-	float: left;
+	float: center;
 	padding-top: 0;
 	border: 0;
 	float: top;
@@ -104,7 +105,7 @@ padding-right: 35%;}
 
 #esq{margin-top: 3%;
 	padding-top: 0;
-	border: 0px;
+	border-right: 0px;
 	float: right;
 	float: top;
 	width: 45%;}
@@ -120,5 +121,9 @@ margin-top: -5%;}
 	border: 30px;
 	float: top;
 	padding-left: 5%;}
+
+#uno{padding-left: 7%;
+padding-right: 7%;
+margin-bottom: -4%;}
 
 
