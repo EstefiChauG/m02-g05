@@ -46,7 +46,22 @@ header{width: 100%;}
 	text-decoration: none;}
 
 .menu li a:hover{
-	color: #242EEF;} /* desde el "*" hasta acá es un código sacado en https://www.youtube.com/watch?v=3mdQuS8VHKg*/
+	color: #242EEF;} 
+
+/* Submenu*/
+.submenu{
+	position: absolute;
+	width: 85%;
+	visibility: hidden;
+	text-align: left;
+	background-color: #0D1821;
+	padding-left: 18%;
+	padding-bottom: 5%;}
+
+.menu li:hover .submenu{
+	visibility: visible;} /* desde el "*" hasta acá es un código sacado en https://www.youtube.com/watch?v=3mdQuS8VHKg*/
+
+.menu li a{color: #F2EBF0;}
 
 #autores-paper{width: 60%;
 	float: left;
@@ -74,7 +89,7 @@ header{width: 100%;}
 #proyecto{background-image: url("img/beyond.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center center;}
+	background-position: center center;} /* código sacado en https://www.freecodecamp.org/espanol/news/imagen-de-fondo-css-con-codigo-de-ejemplo-html/ */
 
 #gif{margin-top: 10%;
 	padding: 9.5%;
@@ -135,7 +150,7 @@ footer{background-image: url("img/fin.png");
 	background-size: 70%;
 	background-position: center center;
 	padding-bottom: 5%;
-	padding-top: 1%;}
+	padding-top: 1%;}/* código sacado en https://www.freecodecamp.org/espanol/news/imagen-de-fondo-css-con-codigo-de-ejemplo-html/ */
 
 #referencias a h3:hover{
 	color: #242EEF;}

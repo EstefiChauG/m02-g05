@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Grupo 05</title>
+	<title>Ensayo web grupo 05</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +18,18 @@ font-family: 'Asul', sans-serif; -->
 			<nav class="navegación">
 				<ul class="menu">
 					<li><a href="">Inicio</a></li>
-					<li><a href="index.html#autores-paper">Artículo</a></li>
-					<li><a href="index.html#proyecto">Proyecto de diseño</a></li>
+					<li><a href="index.html#autores-paper">Artículo</a>
+						<ul class="submenu">
+							<li><a href="index.html#autores">Reseñas Autores</a></li>
+							<li><a href="index.html#resumen-articulo">Resumen Artículo</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#proyecto">Proyecto de diseño</a>
+						<ul class="submenu">
+							<li><a href="index.html#autora">Reseña Creadora</a></li>
+							<li><a href="index.html#resu-proyecto">Resumen Proyecto</a></li>
+						</ul>
+					</li>
 					<li><a href="index.html#vinculación">Vinculación crítica</a></li>
 					<li><a href="index.html#conclusión">Conclusión</a></li>
 					<li><a href="index.html#referencias">Referencias</a></li>
@@ -30,6 +40,7 @@ font-family: 'Asul', sans-serif; -->
 
 	<main> <!-- contenedor de todo todo -->
 		<img id="fotos" src="img/lao.png" width="37%">
+		<div id="autores"></div>
 		<div id="autores-paper">
 			<img src="img/unfolding.png" width="110%">
 			<div class="cont1">
@@ -41,9 +52,10 @@ font-family: 'Asul', sans-serif; -->
 				<p align="justify">Fernando Rodriguez es actualmente investigador en la New York University y en el Centre for Research on Socio-Cultural Change, además de eso, es profesor en el Departamento de Comunicación en la Universidad de California, San Diego. Le gusta mucho la sociología, los estudios de ciencia y tecnología, la antropología, el arte, el diseño y la arquitectura, por lo que suele estar envuelto en esos temas. Es editor en el blog Material World Blog. Sus investigaciones y principales proyectos por lo general se centran en el estudio de la subjetividad, objetividad y reproducción de formas en torno al carácter de tipo infraestructural y ecológico. (CCCD, 2015)</p>
 			</div> <br><br><br><br>
 		</div>
-		<center><a href="https://revistadisena.uc.cl/index.php/Disena/article/view/79/455"><img id="botón" src="img/artículo.png" width="35%"></a></center>
+		<center><a target="blank" href="https://revistadisena.uc.cl/index.php/Disena/article/view/79/455"><img id="botón" src="img/artículo.png" width="35%"></a></center>
+		<div id="resumen-articulo"></div>
 		<br><br><br><br><br>
-		<img src="img/resu-articulo.png" width="100%"><br><br><br>
+		<img  src="img/resu-articulo.png" width="100%"><br><br><br>
 		<div class="cont2">
 			<p align="justify">Se ha centrado la problemática de las capacidades políticas del diseño en las “capacidad de re-plegar”. En un sentido más amplio existen “dos ramas” que analizan este concepto; los apologistas, quienes ven el diseño y sus capacidades envolventes como herramientas poderosas para mejorar y extender nuestras capacidades, y los críticos, quienes ven estas capacidades como formas de coerción y dominación; el diseño como una herramienta potencialmente peligrosa. Se utilizan los ejemplos de Latour y Foucault, siendo el primero apologista y el segundo crítico. (Domínguez y Fogué, 2015)
 			<br><br>Lo que se plantea como argumento, en vez del repliegue, es la “capacidad de despliegue” del diseño, proponiendo una nueva mirada al tema. Se propone una exploración de una forma alternativa de pensar cómo el diseño puede convertirse en materia política: la capacidad propositiva de desdoblar lo político, es decir, de ampliar, cuestionar y especular sobre los tipos de cosas, lugares y cuerpos que constituyen el cosmos de lo político.  (Domínguez y Fogué, 2015)
@@ -55,6 +67,7 @@ font-family: 'Asul', sans-serif; -->
 		<div id="proyecto">
 			<img id="gif"src="img/martin.gif" width="100%">
 		</div>
+		<div id="autora"></div>
 		<center><br><br><br><img id="ti" src="img/res-creadora.png" width="30%"></center>
 		<div id="tipa">			
 			<img src="img/autora.png" width="90%">
@@ -64,10 +77,10 @@ font-family: 'Asul', sans-serif; -->
 			<h2>Nushin Isabelle Yazdani</h2><br><br><br>
 			<p align="justify">Es una diseñadora de interacción y transformación, artista e investigadora de IA. Su trabajo se desarrolla en el estudio de la interconexión de las tecnologías digitales y la justicia social, la inteligencia artificial y la discriminación, desde una perspectiva feminista interseccional (Gohethe Institut, 2022). <br><br>Sus creaciones son en colaboración con comunidades que se ven directamente afectadas por los resultados de diseños opresivos, por lo que busca crear y explorar nuevos procesos de diseño que revelen las estructuras dominantes opresivas (Gohethe Institut, 2022).<br><br>Nushi trabaja en el Laboratorio de Innovación Educativa, a  cargo de  la transformación del sistema educativo y la creación de métodos de aprendizaje innovadores. Es becaria del Instituto de Ética de la IA de Montreal, miembro de la Red de Justicia de Diseño, un colectivo interdisciplinario que se ocupa de las oportunidades emancipadoras que ofrecen la tecnología y el feminismo. Es profesora de la Universidad de Ciencias Aplicadas de Potsdam. Además de enseñar, Nushin también organiza eventos comunitarios en la intersección de tecnología, arte y diseño (Humanity in action, 2022).</p>
 			<br><br><br><br><br>
-			<center><a href=""><img src="img/proyecto.png" width="80%"></a></center><br><br><br><br><br>
+			<center><a target="blank" href="https://dreamingbeyond.ai/en"><img src="img/proyecto.png" width="80%"></a></center><br><br><br><br><br>
 		</div>
 
-		<img src="img/resu-proyecto.png" width="100%"> <br>
+		<img id="resu-proyecto" src="img/resu-proyecto.png" width="100%"> <br>
 
 		<div id="cont3">
 			<p>CREADORA: Nushin Yazdani <br><br> CO-CREADORA: Buse Çetin<br><br>DISEÑADO Y CODIFICADO POR: Iyo Bisseck<br><br>COOPERADORES: Institut für Auslandsbeziehungen<br><br>CON APOYO DE: Humanity in Action y Landecker Democracy Fellowship y mur.at.</p>
